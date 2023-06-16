@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+}
+.carousel-bg {
+    background-image: url(../img/carrusel1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .carousel-bg-2 {
+    background-image: url(../img/carrusel2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .carousel-bg-3 {
+    background-image: url(../img/carrusel3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-item {
+    height: 800px;
+  }
+  .carousel-caption {
+    position: absolute; 
+    right: 0;
+    bottom: 40%;
+    left: 0;
+  }
+
+  .Navbar {
+    background-color:transparent;
+    z-index: 4;
+}
+.navMuseo{
+    background-image: url(../img/navbar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 4;
+}
+
+.navMuseo-brand img {
+  width: 150px;
+}
+.bg-gray{
+    background-color: #e8e8e8;
+}
+.nav-link2{
+  color: red;
+  text-decoration: none;
+  padding: 10px;
+}
+.navbarTienda{
+  background-image: url();
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navTienda{
+  width: 550px;
+    height: auto;
+}
+.navbar-brand img {
+    width: 150px;
+    height: auto;
+  }
+  .nav-link{
+    padding: 10px;
+  }
+  .navbar-nav {
+    align-items: center;
+  }
+  .navbar .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+  }
+  .column {
+    float: left;
+    color: #9b9c9c;
+    width: 33% !important;
+    height: 100%;
+    position: relative;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.card{
+  width: 30%;
+  flex-direction: row;
+  display: flex;
+  align-items: end;
+  
+}
+.nav-link-3{
+  color: red;
+  text-decoration: none;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-item{
+  height: 300px;
+}
+.navbar-brand img{
+  width: auto;
+  height: 50px;
+}
+body{
+  background-image: url(../img/carrusel1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+
+}
