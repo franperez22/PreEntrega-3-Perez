@@ -115,11 +115,3 @@ ul li{
   width: auto;
   height: 50px;
 }
-body{
-  background-image: url(../img/carrusel1.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-
-}
